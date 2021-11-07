@@ -1,0 +1,30 @@
+<html lang="fr">
+  <head>
+    <title>Mon premier web component</title>
+    <meta charset="utf-8" />
+    <script src="./monLecteurVideo/index.js" type="module"></script>
+    <script src="https://g200kg.github.io/webaudio-controls/webaudio-controls.js"></script>
+    <link rel="manifest" href="/app.manifest" crossorigin="use-credentials" />
+    <style>
+      html {
+        background: url(./monLecteurVideo/assets/background.jpg) no-repeat
+          center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+    <my-player
+      id="player"
+      src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    >
+      ></my-player
+    >
+
+    <script></script>
+  </body>
+</html>
